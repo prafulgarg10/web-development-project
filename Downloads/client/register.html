@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style3.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    
+      
+    <div class="video-container">
+      
+        
+        <video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+<div class="form">
+    <h1 class="center"><b>Registration</b> </h1>
+    <div class="tab-header">
+      <div class="active">Sign Up</div>
+      <div>Sign In</div>
+    </div>
+    <div class="tab-content">
+      <div class="tab-body active">
+        <form action = "/signup" method = "post">
+        <div class="form-element">
+          <input type="text" placeholder="Email" name = "email">
+        </div>
+        <div class="form-element">
+          <input type="text" placeholder="Username" name = "username">
+        </div>
+        <div class="form-element">
+          <input type="password" placeholder="Password" name = "password">
+        </div>
+        <div class="form-element">
+          <button>Sign Up</button>
+        </div>
+        </form>
+      </div>
+      
+      <div class="tab-body">
+        <form action = "/login" method = "post">
+        <div class="form-element">
+          <input type="text" placeholder="Username" name = "username">
+        </div>
+        <div class="form-element">
+          <input type="password" placeholder="Password" name = "password">
+        </div>
+        <div class="form-element">
+          <input type="checkbox" id="remember_me">
+          <label for="remember_me">Remember me</label>
+        </div>
+        <div class="form-element">
+          <button>Sign In</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script_2.js"></script>
+  </body>
+  </html>
