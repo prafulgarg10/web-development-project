@@ -1,3 +1,8 @@
 This project is completed using MongoDB, NodeJs, ExpressJs, Javascript, Jquery, AngularJs, CSS, HTML.
+
+Only the user available in the database can login.
+
+The website is named as COVID-19, it contains all the details needed to know by a particular user.
+
 Basic informations like login details, suggestions from the user is stored in the database.
  
