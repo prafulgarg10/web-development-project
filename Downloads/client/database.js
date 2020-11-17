@@ -28,7 +28,7 @@ res.end("Details added successfully");})
 
 app.post('/signup', urlencodedParser, function (req, res) {
     response = {
-    user_name:req.body.username,
+    user_name:req.body.username, 
     password:req.body.password,
     email:req.body.email
     };
